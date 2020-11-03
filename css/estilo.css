@@ -1,0 +1,71 @@
+/*Menu*/
+* {
+    padding: 0;
+}
+nav{
+    padding-bottom: 80px;
+}
+.menu {
+    float: left;
+    list-style-type: none;
+    background: red;
+    color: white;
+    width: 10%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: 30px;
+}
+
+ul{
+    position: relative;
+    
+}
+
+.menu img{
+    padding-bottom: 30px;
+    width: 20%;
+    height: 115%;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+/*body*/
+.texto{
+    padding-top: 37px;
+}
+
+.categorias{
+    float: left;
+    width: 20%;
+}
+.produtos{
+    float: right;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:5px;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.preco{
+    color: red;
+}
+
+/*Rodape*/
+#rodape{
+    text-align: center;
+    clear: left;
+    
+}
+#rodape img{
+    width: 40%;
+}
+
+#formas_pagamento{
+    clear: right;
+    position: relative;
+}
+
